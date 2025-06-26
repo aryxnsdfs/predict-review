@@ -23,3 +23,18 @@ conda activate bertsent
 
 # Install dependencies
 pip install -r requirements.txt
+
+🚀 Run the Classifier
+predict_review.py
+After training, it will print predictions like:
+Positive
+Negative
+
+🧠 Model
+Uses BertTokenizer and BertForSequenceClassification
+
+Trained for 3 epochs with HuggingFace Trainer
+
+Supports GPU if available
+
+
