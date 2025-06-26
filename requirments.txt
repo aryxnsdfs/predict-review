@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+torch
+transformers
+If you're using GPU:
+
+torch==2.1.0+cu118     # or your specific CUDA version
